@@ -1,0 +1,15 @@
+Changelog
+
+19/05/2020
+Tweaks to the Create Account Names and Create UPN
+
+18/05/2020 
+Create "Update Account Names" form - allows to change the first and last name of an account
+Create "Change UPN" form - allows to change the sign in name of an account
+
+17/05/2020
+Base Design Created
+Login Email verification check added to signin
+	$adminuser is the variable in which the account logging in is stored
+Minimized sign in prompts by allowing credential passthru to each "connect-" service
+	E.g connect-exchangeonline -userprincipalname $adminuser
